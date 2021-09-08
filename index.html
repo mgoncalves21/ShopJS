@@ -1,1 +1,52 @@
-!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="app.css">
+<script src="app.js" async></script>
+</head>
+<body>
+
+<header>
+  <h2>Ma boutique en ligne </h2>
+  <span>
+        <div id="panier">Vous avez 0 produit dans le panier</div>
+        <img src="panier.png" width="50"/>
+  </span>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Ipad</a></li>
+      <li><a href="#">Iphone</a></li>
+      <li><a href="#">MacBook Pro</a></li>
+      <li><a href="#">MacBook Air</a></li>
+      <li><a href="#">IWatch</a></li>
+      <li><a href="#">Mac PRO</a></li>
+      <li><a href="#">Ipad PRO</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Liste du panier</h1>
+    <p id="listePanier">Vous avez 0 produits dans le panier</p>
+    <button onclick="viderPanier()" > Vider panier </button>
+  </article>
+</section>
+
+<footer>
+  <p>Ceci est un Footer</p>
+
+  <label for="example">Veuillez saisir un texte</label>
+  <input type="text" id="prodInput"/>
+  <button onclick="addItem()" > ADD </button>
+  <button onclick="deleteItem()" > DELETE </button>
+
+
+</footer>
+
+</body>
+</html>
